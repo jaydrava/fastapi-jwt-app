@@ -1,0 +1,13 @@
+{
+  "name": "module13_assignment",
+  "version": "1.0.0",
+  "description": "Playwright tests for FastAPI project",
+  "scripts": {
+    "test": "playwright test",
+     "start": "uvicorn app.main:app --reload"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0"
+  }
+}
